@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_share"
+            android:title="@string/nav_share"
+            android:icon="@drawable/ic_share"/>
+        <item
+            android:id="@+id/nav_article"
+            android:title="@string/nav_article" />
+        <item
+            android:id="@+id/nav_mediabyte"
+            android:title="@string/nav_mediabyte" />
+        <item
+            android:id="@+id/nav_activity"
+            android:title="@string/nav_activity" />
+        <item
+            android:id="@+id/nav_likes"
+            android:title="@string/nav_likes" />
+        <item
+            android:id="@+id/nav_list"
+            android:title="@string/nav_list" />
+        <item
+            android:id="@+id/nav_techflier"
+            android:title="@string/nav_techflier" />
+        <item
+            android:id="@+id/nav_submmit"
+            android:title="@string/nav_submmit" />
+
+
+        <item
+            android:id="@+id/nav_setting"
+            android:title="@string/nav_settings"
+            android:icon="@drawable/ic_settings"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/nav_signout" />
+    </group>
+
+
+
+    <item android:title="Additional category">
+        <menu>
+            <item
+                android:id="@+id/nav_block_chain"
+                android:title="@string/nav_blockchain" />
+            <item
+                android:id="@+id/nav_crypto"
+                android:title="@string/nav_crypt" />
+        </menu>
+    </item>
+
+
+
+
+</menu>

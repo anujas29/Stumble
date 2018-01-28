@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share"
+        android:title="Share"
+        />
+
+    <item
+        android:id="@+id/action_thumb_up"
+        android:icon="@drawable/ic_thumb_up"
+        android:title="Like"
+         />
+
+
+    <item
+        android:id="@+id/action_thumb_down"
+        android:enabled="true"
+        android:icon="@drawable/ic_thumb_down"
+
+        android:title="DisLike"
+        />
+
+
+</menu>
